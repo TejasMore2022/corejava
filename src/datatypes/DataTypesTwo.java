@@ -14,11 +14,30 @@ public class DataTypesTwo {
 		boolean bl = true;
 		
 		
+		ch = bt;
+		ch = st;
+		ch = in;
+		
+		
+		bt = ch;
+		st = ch;
+		in = ch;
+		
+		db = bt;
+		db = st;
+		db=in;
+		db=ln;
+		db=fl;
+		db=ch;
+		db=bl;
 		
 		fl = bt;
 		fl = st;
 		fl = in;
 		fl = ln;
+		fl = db;
+		fl = ch;
+		fl = bl;
 		
 		ln = bt;
 		ln=st;

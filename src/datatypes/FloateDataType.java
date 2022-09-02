@@ -6,7 +6,7 @@ public class FloateDataType {
 
     float fl = 45.5f;
     float ff;
-    
+   
     System.out.println(fl);
     
     fl = 78.3f;
