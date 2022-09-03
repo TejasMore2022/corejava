@@ -4,6 +4,8 @@ public class ArithmaticCalculations {
 	
 	static int aa = 89;
 	static char ch = 'A';
+	
+	int pqrs = 888;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,6 +19,8 @@ public class ArithmaticCalculations {
       ArithmaticCalculations.substraction();
       ArithmaticCalculations.addition();
       addition();
+      ArithmaticCalculations.multiplication();
+      System.out.println(ArithmaticCalculations.pqrs);
       System.out.println("This is end line in main method");
 	}
 	

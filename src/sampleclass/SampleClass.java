@@ -13,6 +13,9 @@ public class SampleClass {
 		
 		sampleMethodFromSampleClass();
 		System.out.println(z);
+		
+		 ArithmaticCalculations.multiplication();
+	      System.out.println(ArithmaticCalculations.pqrs);
 
 	}
 public static void sampleMethodFromSampleClass()
