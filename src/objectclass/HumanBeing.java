@@ -5,14 +5,14 @@ public class HumanBeing {
 	String name = "KTCTC";
 	float marks;
 static int pqrs = 888;
-	public static void main(String[] args) {
-	
+	public static void main(String[] args) {	
 		
 		HumanBeing objO = new HumanBeing();
 		HumanBeing oo = new HumanBeing();
 
         HumanBeing obj1 = objO;
         obj1 = oo;
+        System.out.println(objO.pqrs);
         		
 		objO.rollNum = 1;
 		objO.name = "Amit";
@@ -21,7 +21,7 @@ static int pqrs = 888;
 		oo.rollNum =2;
 		oo.name = "Chandu";
 		oo.marks = 77.56f;
-		
+		System.out.println(HumanBeing.pqrs);
 		
 		System.out.println(obj1.marks);
 		System.out.println(obj1.name);
@@ -63,3 +63,4 @@ static int pqrs = 888;
 	}
 
 }
+

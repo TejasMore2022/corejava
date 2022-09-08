@@ -12,7 +12,13 @@ public class BooleanDataType {
 		boolean f;
 		f = true;
 		System.out.println("F is = "+f);
-
+sM();
+	}
+	
+	public static void sM()
+	{
+		System.out.println("Hi");
+		
 	}
 
 }

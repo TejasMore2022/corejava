@@ -32,7 +32,7 @@ public class ArithmaticCalculations {
 		int c = a+b;
 		System.out.println(aa);
 		System.out.println(c);
-		ArithmaticCalculations.substraction();
+		
 		
 	}
 	
@@ -43,6 +43,7 @@ public class ArithmaticCalculations {
 		int c = a-b;
 		
 		System.out.println(c);
+		ArithmaticCalculations.addition();
 	}
 	
 	public void multiplication()

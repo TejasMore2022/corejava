@@ -4,8 +4,11 @@ public class ByteDataType {
 
 	public static void main(String[] args) {
 		
+		BooleanDataType.main(args);
+		BooleanDataType.sM();
+		
 		byte a;
-		byte b = 44;
+		byte b = 44;		
 		a = 45;
 		System.out.println(a);
 		System.out.println(b);
@@ -22,5 +25,7 @@ public class ByteDataType {
         System.out.println(c);
         
 	}
+	
+	
 
 }
