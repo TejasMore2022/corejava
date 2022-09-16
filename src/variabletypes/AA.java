@@ -6,8 +6,11 @@ public class AA {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		System.out.println(Student.collageName);
 		
+		ArithMaticCalculation oo = new ArithMaticCalculation();
+		oo.a=22;
+		oo.addition();		
+		System.out.println(Student.collageName);		
 		Student st = new Student();
 		System.out.println(st.rollNum);
 		System.out.println(st.name);

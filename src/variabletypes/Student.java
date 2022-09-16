@@ -18,7 +18,8 @@ public class Student {
 		st2.name = "Amol";
 		st2.rollNum = 770;
 		System.out.println(st1.name);
-		System.out.println(st2.name);		
+		System.out.println(st2.name);	
+		
 		
 		st1.collageName = "ABCD";
 		System.out.println(st1.collageName);

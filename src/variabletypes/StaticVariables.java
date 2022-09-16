@@ -22,6 +22,7 @@ public class StaticVariables {
 		System.out.println("KTCTC");
 		
 		System.out.println(pq);
+		
 
 	}
 	
@@ -33,12 +34,14 @@ public class StaticVariables {
 		System.out.println(ab);
 		
 		System.out.println(pq);
+		
 	}
 	
 	public void nonStaticMethod()
 	{
 		System.out.println(ab);
 		System.out.println(pq);
+		staticMethod();
 		
 	}
 
