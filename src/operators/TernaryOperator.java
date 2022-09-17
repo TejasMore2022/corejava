@@ -11,6 +11,7 @@ public class TernaryOperator {
 		int age = 17;
 		
 		String data = age>=18?"You can vote":"You can not vote";
+		System.out.println(age>=18?"You can vote":"You can not vote");
 		System.out.println(data);
 		
 		float ff = flag&&(a<0)?44.4f:55.4f;
