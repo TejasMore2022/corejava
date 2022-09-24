@@ -1,0 +1,161 @@
+1.What is java?
+  language and platform
+
+2.Applications of Java- WebBased Application, Mobile Application, Desktop Applications, Gaming, etc.
+
+3.Features of Java-Simple,Object-Oriented, Portable,Platform Independent,Secure,High performance,Multithreaded etc.
+
+4.What is JVM, jre and JDK?
+
+ 4.1 How to install Java
+ https://www.guru99.com/install-java.html
+ 
+ https://www.oracle.com/java/technologies/downloads/#java8
+ 
+ 4.2 How to install Eclipse
+ 
+ https://www.guru99.com/install-eclipse-java.html
+ 
+ https://www.eclipse.org/
+ 
+5. Data types
+   Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+   Non-primitive data types: The non-primitive data types include Classes, Strings, Interfaces, and Arrays.
+   
+ 
+6.what is  Class, Object and Method?
+  class has -Modifiers,Class name,Superclass(if any),Interfaces(if any),Body
+  Method has- Modifiers,static or nothing, return type,arguments and Body
+  Object has- state/properties and Behaviour
+  
+7.Naming Convention in Java.
+  • Class name Should always start with Uppercase.
+  • Method should start with lower case.
+  • Package name should always be lowercase.
+  • Constant should be in uppercase.
+ 
+ Rules for Naming od Variable:
+ All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
+
+• After the first character, identifiers can have any combination of characters.
+
+ • A keyword cannot be used as an identifier.
+
+ • Most importantly, identifiers are case sensitive.
+
+ • Examples of legal identifiers: age, $salary, _value, __1_value.
+
+ • Examples of illegal identifiers: 123abc, -salary.
+   
+8.Types of Veriables (static keyword)
+  local veriables
+  instance veriables
+  static veriables
+  
+ 9. Operators in Java
+     
+	 Arithmatic operator
+	   +,-,*,/,%
+	 
+	 Relational operator
+	   <,>,<=,>=,==,!=
+	 
+	 Unary operator
+	   exp++,exp--,++exp,--exp,~,!
+	   
+	 Bitwise Operators
+	   &,^,|
+	   
+	 Logical operators
+	   && , ||
+	   
+	 Assignment Operators
+	   = ,+= ,-= ,*= ,/= ,%= 
+	   
+	 Ternery Operators (if-then-else)
+	  ? :
+	 
+10. Decision Making/Control statements in Java
+	 
+	 If statements- 
+	  if, if-else, if-else-ladder, nested-if
+	  
+	 method with parameter
+	 
+	 Switch statement- switch fall through, switch, nested switch
+	 
+	 Arrays in Java---int a[] = new int[5];
+	 
+	 for loops- for loop, nested for loop, Labeled for loop ,for each loop
+
+	 while loops- while, do-while
+	 
+	 java break and continue
+	 
+10.2 Scope of veriable
+	 
+11. return types in java
+
+11.2 Scanner in java
+	 
+12. Constructors in java- default constructor, parameterized constructor  
+     How constructors are different from methods in Java?
+     • Constructor(s) must have the same name as the class within which it defined while it is not necessary for the method in java.
+     • Constructor(s) do not return any type while method(s) have the return type or void if does not return any value.
+     • Constructor is called only once at the time of Object creation while method(s) can be called any numbers of time
+
+13. "this" key word in java
+     Usage of java this keyword
+     1. this can be used to refer current class instance variable.
+     2. this can be used to invoke current class method 
+     3. this() can be used to invoke current class constructor.
+     4. this can be passed as an argument in the method call.
+	 5. this can be used as return type in method
+
+OOPS (Inheritance,Polymorphism,Abstraction and Encapsulation)
+
+14. Inheritance in Java
+
+Polymorphism
+
+15. Method overloading in java-- compile time polymorphism
+
+16. method Overriding in java-- run time polymorphism
+
+17. super keywork in java
+
+18. Interface-cannot instantiate	
+
+19. Abstract class-cannot instantiate, contructor 
+
+20 Abstraction in java
+    
+21. Access modifiers private, default, protected and public
+
+22. Enum data type
+
+23. final keyword
+
+24. Encapsulation in java
+
+25. Wrapper classes in java
+
+26. String in java, String buffer-synchronised & String builder
+// charAt(), length(),endsWith(" "),startsWith(),replace(),split(" "),trim(),subString(),contains(),equals(),
+		//concate(),equalsIgnoreCase(String another),toLowerCase(),toUpperCase()
+
+27.Exceptions in java
+  
+   exception handaling try-catch, try-multiple catch, nested try catch
+
+28. throw and throws in java
+
+28.b finally
+
+29. Collection in java (add,get,size,remove,equals)
+ArrayList- duplicate , LinkedList-duplicate, Hashset-no duplucate,no incertion order,LinkedhashSet-no duplucate,incertion order, 
+treeSet-no duplucate, acending order, No null value
+
+30.Iterator in collection
+	 
+31. HashMap- No incertion order
