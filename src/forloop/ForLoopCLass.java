@@ -8,9 +8,20 @@ public class ForLoopCLass {
 		int a = 8;
 		
 		
+
+		
 		for (int i=4;i>=0;i--)
 		{
 			System.out.println(i);
+			
+			if (i==3)
+			{
+			break;
+			
+			}
+			
+			System.out.println("Afte break");
+			
 		}
 		
 		

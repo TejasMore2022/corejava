@@ -1,8 +1,8 @@
 package parameter.method;
 
 public class Student {
-	int rollNum;
-	String name;
+	public int rollNum;
+	public String name;
 	
 	public void displayeStudentInfo()
 	{

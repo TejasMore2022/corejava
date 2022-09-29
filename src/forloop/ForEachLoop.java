@@ -5,6 +5,19 @@ public class ForEachLoop {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		char atr[] = {'s','a','t','u','5'};
+		
+		
+		for (char each:atr)
+		{
+			if (each=='a'||each=='e'||each=='u'||each=='i'||each=='o')
+			{
+				System.out.println("Array has wovel");
+				break;
+			}
+		}
+		
+		
 		int add1[][] = {{12,3},{33,2}};
 		
 		for (int each[]:add1)

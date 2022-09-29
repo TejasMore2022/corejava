@@ -14,7 +14,7 @@ public class NestedForLoop {
 			pq:for (int j=0;j<2;j++)
 			{
 				System.out.println("inner for loop");				
-				
+				break AB;
 			}
 			
 		}
