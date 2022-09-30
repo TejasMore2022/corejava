@@ -25,7 +25,7 @@ public class ReturnType2 {
 		st1.name = "Anand";
 		st1.rollNum = 67;
 		
-		return st1;
+		return st1;	
 		
 	}
 	

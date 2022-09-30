@@ -6,6 +6,7 @@ public class Student {
 	
 	public void displayeStudentInfo()
 	{
+		
 		System.out.println("Roll num = "+rollNum);
 		System.out.println("Name of Student = "+name);
 	}

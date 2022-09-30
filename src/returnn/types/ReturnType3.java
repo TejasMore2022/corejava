@@ -14,7 +14,8 @@ System.out.println(sam(15));
 	public int sampleMethod()
 	{
 		int c = 66+345;
-		return c;			
+		return c;	
+		
 	}
 	
 	public static int sam(int a)
@@ -40,7 +41,7 @@ System.out.println(sam(15));
 		else
 		{
 			return 44.3f;
-		}		
+		}	
 				
 	}
 	
