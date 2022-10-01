@@ -3,6 +3,7 @@ package datatypes;
 public class ByteDataType {
 
 	public static void main(String[] args) {
+
 		
 		BooleanDataType.main(args);
 		BooleanDataType.sM();
