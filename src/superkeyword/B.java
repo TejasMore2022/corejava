@@ -12,9 +12,8 @@ public class B extends A{
 	
 	public B(String str)
 	{
-		
-		this();
-		
+		super(23);
+			
 	}
 	
 	

@@ -3,13 +3,13 @@ package polymorphism;
 public class A {
 	
 	int aa =88;
-	static int stAA = 55;
+	final static int stAA = 55;
 	int ab = 77;
 	static int stIntab = 44;
 
 	public static void main(String[] args) {
+		int asd = 88;
 	
-
 	}
 	
 	

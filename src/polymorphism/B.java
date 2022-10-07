@@ -73,7 +73,7 @@ public class B extends A{
 		System.out.println("This static  method is from B");
 		System.out.println("This static  method is from B");
 	}
-	
+	@Override
 	public  void nstMethod(int a)
 	{
 		System.out.println("This non static method is from B");
