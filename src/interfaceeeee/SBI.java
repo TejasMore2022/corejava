@@ -8,8 +8,10 @@ public class SBI implements ReserveBank,IndianGov{
 		rSbi.currentAccountCharges();
 		rSbi.savingAccountCharges();
 		rSbi.currencyConversionRate();
+		rSbi.defaultMethodFromInterface();
 		// only Name of interface of interface can call static method from interface
 		ReserveBank.commonMethodforHomeLoan();
+		
 		
 		SBI sbi = new SBI();
 		System.out.println(sbi.ABCD);
@@ -17,6 +19,7 @@ public class SBI implements ReserveBank,IndianGov{
 		sbi.currentAccountCharges();
 		sbi.janDhanAccountCharges();
 		sbi.currencyConversionRate();
+		sbi.defaultMethodFromInterface();
 		
 	}
 
