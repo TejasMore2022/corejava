@@ -14,7 +14,7 @@ public class ExceptionHandling3 {
 		 c = a / b;
 		 ch = str.charAt(3);
 		 System.out.println("Inside try block");
-		}
+		}		
 		catch(NullPointerException obj)
 		{
 		 System.out.println("String does not have any character sequence");
@@ -23,6 +23,10 @@ public class ExceptionHandling3 {
 		{
 			c = 99;
 			System.out.println("String not checked");
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
 		}
 
 		System.out.println(c);
