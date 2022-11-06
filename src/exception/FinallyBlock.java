@@ -20,6 +20,7 @@ public class FinallyBlock {
 		{
 			System.out.println("This is finally block");
 			c = 90;
+			
 		}
 		
 		System.out.println(c);
