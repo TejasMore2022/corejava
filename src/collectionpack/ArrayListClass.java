@@ -24,7 +24,7 @@ public class ArrayListClass {
 		System.out.println(data);
 		Integer t = data.get(2);
 		System.out.println(t);
-		Integer k = data.get(3);
+		int k = data.get(3);
 		System.out.println(k);		
 		int elements = data.size();
 		System.out.println(elements);
