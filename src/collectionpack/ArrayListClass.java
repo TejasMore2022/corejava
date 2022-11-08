@@ -2,6 +2,7 @@ package collectionpack;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.stream.Collectors;
 
 public class ArrayListClass {
@@ -36,6 +37,14 @@ public class ArrayListClass {
 		data.remove(a);
 		System.out.println(data);
 		Collections.sort(data);
+		
+		Iterator<Integer> itr = data.iterator();
+		
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+		
 		
 		for (int i=0;i<data.size();i++)
 		{

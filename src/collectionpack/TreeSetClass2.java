@@ -10,8 +10,7 @@ public class TreeSetClass2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Get method is not provided in Set as it does not maintain insertion order
-		// We can not use Collection.sort for hash set
+		// We can not add objects of user defined classes in tree set as tree set sorts data. It does not decides on which parameter it should sort object.
 		TreeSet<Student> data = new TreeSet<>();	
 		Student st1 = new Student();
 		st1.rollNum = 11;

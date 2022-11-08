@@ -2,6 +2,9 @@ package collectionpack;
 
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
+
+import parameter.method.Student;
 
 public class HashSetClass {
 
@@ -36,6 +39,14 @@ public class HashSetClass {
 		data.remove(a);
 		System.out.println(data);
 		data.remove(33);
+		
+		  Iterator<Integer> itr = data.iterator();
+			
+			while(itr.hasNext())
+			{
+				System.out.println(itr.next());
+			}
+		
 		
 		for (Integer each: data)
 		{

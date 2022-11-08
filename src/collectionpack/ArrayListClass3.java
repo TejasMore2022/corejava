@@ -2,6 +2,7 @@ package collectionpack;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -29,6 +30,17 @@ public class ArrayListClass3 {
 		System.out.println(ss.rollNum);
 		System.out.println(ss.name);
 		ss.displayeStudentInfo();
+		
+        Iterator<Student> itr = data.iterator();
+		
+		while(itr.hasNext())
+		{
+			Student sp = itr.next();
+			System.out.println(sp.rollNum);
+		}
+		
+		
+		
 		
 		for (Student each:data)
 		{
